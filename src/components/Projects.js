@@ -4,6 +4,10 @@ import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import carmarket from "../assets/img/carmarket.png";
+import docker from "../assets/img/docker.png";
+import fitness from "../assets/img/fitness.png";
+import laravel from "../assets/img/laravel.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -11,24 +15,24 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
+      title: "Car Market Place",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: carmarket,
     },
     {
-      title: "Business Startup",
+      title: "Startup Ecosystem Tracker",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: laravel,
     },
     {
-      title: "Business Startup",
+      title: "Docker Containerization",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: docker,
     },
     {
-      title: "Business Startup",
+      title: "Fitness Tracker",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: fitness,
     },
     {
       title: "Business Startup",

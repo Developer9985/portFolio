@@ -49,7 +49,7 @@ export const NavBar = () => {
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
-              <Nav.Link href="#certificates" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Certificates</Nav.Link>
+              <Nav.Link href="#certificates" className={activeLink === 'certificates' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('certificates')}>Certificates</Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
@@ -57,8 +57,10 @@ export const NavBar = () => {
                 <a href="#"><img src={navIcon2} alt="" /></a>
                 <a href="#"><img src={navIcon3} alt="" /></a>
                 <a href="#"><img src={navIcon5 } alt="" /></a>
-                
               </div>
+              <a href="/resume.pdf" download className="resume-download-btn">
+                <button className="vvd"><span>Download Resume</span></button>
+              </a>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
               </HashLink>
