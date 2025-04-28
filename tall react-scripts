@@ -1,0 +1,20 @@
+[33mcommit 6734686e95577002fceeb6aaa557d9d961e8cb39[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Developer9985 <sudeepdasdas17815@gmail.com>
+Date:   Tue Apr 29 01:44:54 2025 +0530
+
+    Add certificate section and related assets to portfolio
+    
+    - Introduced Certificate component to display certifications.
+    - Created CertificateCard component for individual certificate display.
+    - Updated App.js to include the new Certificate component.
+    - Added CSS styles for the certificate section.
+    - Included new images for certificates and projects in assets.
+    - Updated Projects component with new project details and images.
+    - Fixed navigation link for certificates in NavBar.
+    - Added a download button for the resume in NavBar.
+
+[33mcommit d9320df776479be105456a9101be557c09cd741f[m
+Author: Developer9985 <sudeepdasdas17815@gmail.com>
+Date:   Mon Apr 28 23:27:15 2025 +0530
+
+    initial commit
